@@ -1,5 +1,5 @@
 baseurl = "https://hugo-coder-portfolio.netlify.app/"
-title = "Yusuke Ishimi"
+title = "Clemens Brüsch"
 
 theme = "coder-portfolio"
 
@@ -15,11 +15,11 @@ pygmentsUseClasses = true
 disqusShortname = "yourdiscussshortname"
 
 [params]
-    author = "Yusuke Ishimi"
-    description = "Yusuke Ishimi's personal website"
+    author = "Clemens Brüsch"
+    description = "Clemens Brüsch's personal website"
     keywords = "blog,developer,personal"
     info = "WEB AND APPS ENGINEER"
-    avatarurl = "images/avatar.jpg"
+    avatarurl = "images/clemens2020avatar.jpg"
     footercontent = "Enter a text here."
     fixedbarContent = "Do you want to know me more private?→"
     fixedbarContentAfter = "Thank You! Please share it if you like it→"
@@ -74,13 +74,13 @@ disqusShortname = "yourdiscussshortname"
     [languages.en]
         languagecode = "en"
         languagename = "English" # The language name to be displayed in the selector.
-        title = "Yusuke Ishimi"
+        title = "Clemens Brüsch"
 
         # You can configure the theme parameter for each language.
         [languages.en.params]
-            author = "Yusuke Ishimi"
+            author = "Clemens Brüsch"
             info = "WEB AND APPS ENGINEER"
-            description = "Yusuke Ishimi's personal website"
+            description = "Clemens Brüsch's personal website"
             keywords = "blog,developer,personal"
 
         [languages.en.menu] # It is possible to change the menu too.
