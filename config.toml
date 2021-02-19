@@ -54,33 +54,34 @@ disqusShortname = "yourdiscussshortname"
     name = "Github"
     icon = "fab fa-github"
     weight = 1
-    url = "https://github.com/naro143/"
+    url = "https://github.com/Codemon72/"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter"
     weight = 2
-    url = "https://twitter.com/naro143/"
+    url = "https://twitter.com/ClemensBruesch"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin"
-    weight = 3
-    url = "https://www.linkedin.com/in/naro143/"
-[[params.social]]
-    name = "LinkedIn"
     weight = 4
-    url = "https://www.linkedin.com/in/naro143/"
+    url = "https://www.linkedin.com/in/clemens-br%C3%BCsch-03729591/"
+[[params.social]]
+    name = "Xing"
+    icon = "fab fa-xing"
+    weight = 3
+    url = "https://www.xing.com/profile/Clemens_Bruesch2/cv"
 
 [languages]
     [languages.en]
         languagecode = "en"
         languagename = "English" # The language name to be displayed in the selector.
-        title = "Clemens Brüsch"
+        title = "Clemens Bruesch"
 
         # You can configure the theme parameter for each language.
         [languages.en.params]
-            author = "Clemens Brüsch"
+            author = "Clemens Bruesch"
             info = "WEB DEVELOPER"
-            description = "Clemens Brüsch's personal website"
+            description = "Clemens Bruesch's personal website"
             keywords = "blog,developer,personal"
 
         [languages.en.menu] # It is possible to change the menu too.
