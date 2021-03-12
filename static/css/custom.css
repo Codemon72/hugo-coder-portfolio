@@ -1,3 +1,41 @@
 h1 {
-  color: red;
+  font-size: 3.2rem;
+  line-height: 3.2rem;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: .0625em;
+  margin: 3.2rem 0 1.6rem 0;
+}
+
+.hero {
+  height: 100vh;
+  max-width: 1000px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.hero_snaps {
+  text-align: center;
+}
+.hero_snaps h1 {
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+}
+.hero_snaps h2 {
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  font-size: 2.4rem;
+}
+.hero_snaps ul {
+  list-style: none;
+  margin: 3rem 0 1rem 0;
+  padding: 0;
+}
+.hero_snaps ul li {
+  display: inline-block;
+  position: relative;
+}
+
