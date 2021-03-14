@@ -1,6 +1,10 @@
+body {
+  font-family: 'Recursive', sans-serif;
+}
+
 h1 {
   font-size: 3.2rem;
-  line-height: 3.2rem;
+  line-height: 3.8rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -11,14 +15,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero {
-  height: 100vh;
   max-width: 1000px;
   display: flex;
+  justify-content: space-between;
+  /* gap: 2rem 5rem; */
   margin: 0 auto;
 }
 
 .hero_snaps {
+  width: 400px;
   text-align: center;
+  font-family: 'Fira Mono',monospace;
 }
 .hero_snaps h1 {
   margin-top: 2rem;
@@ -38,4 +45,20 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   position: relative;
 }
+.hero_text {
+  width: 500px;
+}
+.hero_text div + div {
+  margin-top: 2rem;
+}
 
+
+
+/* * { outline: 2px dotted red }
+* * { outline: 2px dotted green }
+* * * { outline: 2px dotted orange }
+* * * * { outline: 2px dotted blue }
+* * * * * { outline: 1px solid red }
+* * * * * * { outline: 1px solid green }
+* * * * * * * { outline: 1px solid orange }
+* * * * * * * * { outline: 1px solid blue } */
