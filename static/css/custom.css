@@ -14,10 +14,22 @@ h1, h2, h3, h4, h5, h6 {
   margin: 3.2rem 0 1.6rem 0;
 }
 
+a:before, a:after {
+  position: absolute;
+  bottom: -4px;
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 2px;
+  background: #cf0303;
+  transition: .5s;
+}
+
 .hero {
   max-width: 1000px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   /* gap: 2rem 5rem; */
   margin: 0 auto;
 }

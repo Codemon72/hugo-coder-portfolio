@@ -1,14 +1,18 @@
+
 [hero_text1]
-other = ""
+other = "Web developer who enjoys teamwork"
 
 [hero_text2]
-other = ""
+other = "Experience with agile working: Kanban, Scrum, Pair Programming."
 
 [hero_text3]
-other = ""
+other = "Expertise: CSS, JavaScript, Hugo, Node.js, React"
 
 [hero_text4]
+other = "I am passionate about building responsive websites and about everything that contributes to an interesting and pleasant UX."
+
+[hero_text4Alt]
 other = "I'm passionate about building responsive websites, clean, elegant interfaces and realising a smooth User Experience."
 
 [hero_text5]
-other = ""
+other = "This website was built by me with Hugo and ❤️."
