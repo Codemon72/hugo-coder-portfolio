@@ -25,6 +25,19 @@ a:before, a:after {
   transition: .5s;
 }
 
+/* Header */
+.navigation-title {
+  display: inline;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  line-height: 6rem;
+  letter-spacing: .1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-weight: 700;
+  color: #000;
+}
+
 .hero {
   max-width: 1000px;
   display: flex;

@@ -16,14 +16,14 @@ pygmentsUseClasses = true
 disqusShortname = "yourdiscussshortname"
 
 [params]
-    author = "Clemens Brüsch"
-    description = "Clemens Brüsch's personal website"
-    keywords = "blog,developer,personal"
+    author = "Clemens Bruesch"
+    description = "Clemens Bruesch's personal website"
+    keywords = "developer,portfolio"
     info = "WEB DEVELOPER"
     avatarurl = "images/clemens2020avatar.jpg"
     footercontent = "Enter a text here."
-    fixedbarContent = "Do you want to know me more private?→"
-    fixedbarContentAfter = "Thank You! Please share it if you like it→"
+    # fixedbarContent = "Do you want to know me more private?→"
+    # fixedbarContentAfter = "Thank You! Please share it if you like it→"
 
     hideCredits = false
     hideCopyright = false
@@ -83,7 +83,7 @@ disqusShortname = "yourdiscussshortname"
             author = "Clemens Bruesch"
             info = "WEB DEVELOPER"
             description = "Clemens Bruesch's personal website"
-            keywords = "blog,developer,personal"
+            keywords = "developer,portfolio"
 
         [languages.en.menu] # It is possible to change the menu too.
 
@@ -117,7 +117,7 @@ disqusShortname = "yourdiscussshortname"
             author = "Clemens Brüsch"
             info = "WEBENTWICKLER"
             description = "Clemens Brüsch's personal website"
-            keywords = "blog,developer,personal"
+            keywords = "developer,portfolio"
 
         [languages.de.menu] # It is possible to change the menu too.
 
@@ -141,31 +141,4 @@ disqusShortname = "yourdiscussshortname"
                 url = "contact"
 
 
-    [languages.ja]
-        languagecode = "ja"
-        languagename = "Japanese"
-        title = "石見 優丞"
-
-        [languages.ja.params]
-            author = "石見 優丞"
-            description = "石見のサイト"
-            keywords = "blog,developer,strona domowa"
-            info = "WEBとアプリのエンジニア"
-
-        [languages.ja.menu]
-            [[languages.ja.menu.main]]
-                name = "テーマについて"
-                weight = 1.0
-                url = "ja/about"
-            [[languages.ja.menu.main]]
-                name = "ブログ"
-                weight = 2.0
-                url = "ja/posts"
-            [[languages.ja.menu.main]]
-                name = "プロジェクト"
-                weight = 3
-                url = "ja/projects"
-            [[languages.ja.menu.main]]
-                name = "お問い合わせ"
-                weight = 5
-                url = "ja/contact"
+ 
