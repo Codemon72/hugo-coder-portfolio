@@ -59,18 +59,23 @@ disqusShortname = "yourdiscussshortname"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter"
-    weight = 2
+    weight = 5
     url = "https://twitter.com/ClemensBruesch"
+[[params.social]]
+    name = "Xing"
+    icon = "fab fa-xing"
+    weight = 3
+    url = "https://www.xing.com/profile/Clemens_Bruesch2/cv"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin"
     weight = 4
     url = "https://www.linkedin.com/in/clemens-br%C3%BCsch-03729591/"
 [[params.social]]
-    name = "Xing"
-    icon = "fab fa-xing"
-    weight = 3
-    url = "https://www.xing.com/profile/Clemens_Bruesch2/cv"
+    name = "Email"
+    icon = "far fa-envelope"
+    weight = 2
+    url = "mailto:clemens.bruesch@protonmail.com"
 
 [languages]
     [languages.en]
